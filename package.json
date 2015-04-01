@@ -1,0 +1,25 @@
+{
+  "name": "Thesis-Proxy",
+  "version": "0.0.1",
+  "description": "The MITM for Spenmo",
+  "author": "Collin Stedman",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kronion/Thesis-Proxy"
+  },
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/kronion/Thesis-Proxy/issues"
+  },
+  "homepage": "https://github.com/kronion/Thesis-Proxy",
+  "dependencies": {
+    "cookie-parser": "^1.3.4",
+    "express": "^4.12.3",
+    "http-proxy": "^1.10.0"
+  }
+}
